@@ -1,0 +1,129 @@
+.container{
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+ul,
+ol{
+  padding: 0;
+  margin: 0;
+
+}
+
+*{
+  margin: 0;
+}
+#gallery {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: -30px;
+    list-style: none;
+}
+
+.gallery_list {
+  display: flex;
+  justify-content: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: calc((100% -30px) / 3);
+}
+
+.gallery_img{
+    width: 350px;
+    height: 200px; 
+}
+
+#ingredients {
+  padding: 30px 0;
+}
+
+#name-input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+#counter {
+  padding-top: 30px;
+  padding-bottom: 30px;
+ 
+  text-align: center;
+
+}
+.item > h2 {
+  margin-bottom: 20px;
+}
+
+.item{
+  margin-bottom: 20px;
+}
+
+#name-input{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#counter > button {
+  width: 50px;
+  height: 30px;
+}
+
+#validation-input{
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#font-size-control {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#counter > span {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#controls {
+  display: flex;
+  padding: 20px;
+}
+
+#controls > button:not(:last-child) {
+  margin-right: 20px;
+}
+#controls > input {
+  width: 150px;
+  height: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 30px;
+}
+
+#boxes > div{
+  margin: 20px;
+}
